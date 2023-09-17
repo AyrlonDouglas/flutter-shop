@@ -32,7 +32,6 @@ class AuthPage extends StatelessWidget {
                 Center(
                   child: SingleChildScrollView(
                     child: Container(
-                      //cascade operator!e
                       transform: Matrix4.rotationZ(-8 * pi / 180)
                         ..translate(-10.0),
                       margin: const EdgeInsets.only(bottom: 20),
